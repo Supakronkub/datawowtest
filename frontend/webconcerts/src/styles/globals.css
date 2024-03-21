@@ -1,0 +1,94 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .insert-box {
+    @apply block w-full mt-1 p-2 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 text-gray-900 sm:text-sm;
+  }
+
+  .input-box {
+    @apply px-3 py-2 block rounded-md ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-orange-600 sm:text-xs w-[180px];
+  }
+
+  .background-page {
+    @apply m-0 relative w-screen h-screen box-border bg-[radial-gradient(222.50% 139.80% at 19.44% 103.82%, #1E1A4C 0%, #3C2347 10.94%, #78353E 36.98%, #B13B1F 56.25%, #DA5434 69.79%, #F5CBB7 100%)] bg-cover bg-repeat;
+  }
+
+  .signIn-btn {
+    @apply flex w-full justify-center rounded-md bg-red-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-600 focus:bg-orange-500 visited:bg-orange-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600
+  }
+
+  .submit-btn {
+    @apply rounded-md text-sm font-medium leading-6 shadow-sm px-2 focus-visible:outline-2 focus-visible:outline-offset-2 text-white border border-orange-700 bg-orange-500 hover:brightness-125;
+  }
+
+  .header-btn {
+    @apply p-5 w-[120px] bg-black text-white hover:bg-gray-800 flex justify-center items-center
+  }
+
+  .subHeader-btn {
+    @apply w-[80px] h-[30px] text-xs rounded-md font-medium leading-6 shadow-sm px-2 focus-visible:outline-2 focus-visible:outline-offset-2 text-white border border-orange-700 bg-orange-500 hover:brightness-125
+  }
+
+  .activeHeader-btn {
+    @apply bg-white text-orange-500 font-bold rounded-t-lg pointer-events-none underline
+  }
+
+  .bg1 {
+    background: linear-gradient(45deg, #99f2c8 25%, #1f4037 75%);
+  }
+
+  .bg2 {
+    background: linear-gradient(45deg, #1CB5E0 25%, #000046 75%);
+  }
+
+  .bg3 {
+    background: linear-gradient(45deg, #EB5757 25%, #000000 75%);
+  }
+
+  .bg4 {
+    background: linear-gradient(45deg, #cbb4d4 25%, #20002c 75%);
+  }
+
+  .bg5 {
+    background: linear-gradient(45deg, #0f9b0f 25%, #000000 75%);
+  }
+
+  .bg6 {
+    background: linear-gradient(45deg, #eaafc8 25%, #654ea3 75%);
+  }
+
+  .bg7 {
+    background: linear-gradient(45deg, #BA8B02 25%, #181818 75%);
+  }
+
+  .bg8 {
+    background: linear-gradient(45deg, #C04848 25%, #480048 75%);
+  }
+
+  .bg9 {
+    background: linear-gradient(45deg, #F0C27B 25%, #4B1248 75%);
+  }
+
+  /*https://uigradients.com/#Terminal*/
+
+  .bg10 {
+    background: linear-gradient(45deg, #4b6cb7 25%, #182848 75%);
+  }
+
+  .bg11 {
+    background: linear-gradient(45deg, #232526 25%, #414345 75%);
+  }
+
+  .bg12 {
+    background: linear-gradient(45deg, #FF0099 25%, #493240 75%);
+  }
+
+}
