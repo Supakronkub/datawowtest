@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  testforwork-postgresql:
+    container_name: testforwork-db
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=userTee
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - '5431:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+volumes:
+  db:
+    driver: local
